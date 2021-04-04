@@ -1,0 +1,34 @@
+html,
+body {
+    width: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    flex: 0 0 20%;
+    margin: 1% auto;
+    height: 12px;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.block:hover {
+    background-color: #3cdddd;
+}
+
+.block {
+    background-color: #bcbeb9;
+}
+
+.grid {
+    display: flex;
+    /* establish flex container */
+    flex-wrap: wrap;
+    /* enable flex items to wrap */
+    justify-content: space-around;
+}

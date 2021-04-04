@@ -1,0 +1,23 @@
+{
+
+    "manifest_version": 2,
+    "name": "MultiWin",
+    "version": "1.0",
+
+    "description": "Adjust multiple windows to fit the screen",
+
+    "icons": {
+        "48": "icon/multiwin.svg"
+    },
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": "icon/multiwin.svg",
+        "default_title": "Multiwin - Resize window to suit the screen",
+        "default_popup": "popup/menu.html"
+    }
+
+}
